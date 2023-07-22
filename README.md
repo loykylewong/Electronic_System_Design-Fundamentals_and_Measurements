@@ -6,6 +6,10 @@
 
 The content in this repository is the Mathematica source code used for theoretical calculations and diagram generation while writing my book *Electronic Systems Design - Fundamentals and Measurements*. (CHS, ISBN:9787121368639).
 
+请务必使用Mathematica软件打开它们，不要使用文本编辑器。
+
+Please open them with Mathematica software, not with a text editor.
+
 ## 书本内容简介(Brief Introduction of The Text Book)
 
 本书是电子设计系列教材中的基础和测量仪器篇，侧重电路硬件，特别是模拟电路系统的基础和电学参量的测量。书中包含大量实用的电路单元，既有必要的理论推导，也给出了许多设计和装调经验，并涉及了一些现代电路系统设计相关的主题，如电源完整性概念和单电源设计技术，最后结合全国大学生电子设计竞赛赛题列举了一些电路测量系统的设计和制作案例。
