@@ -1,0 +1,135 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4010,        127]
+NotebookOptionsPosition[      3567,        110]
+NotebookOutlinePosition[      3929,        126]
+CellTagsIndexPosition[      3886,        123]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Expand", "[", 
+  RowBox[{"Solve", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        FractionBox[
+         RowBox[{"u1", "-", "up"}], "R1"], "+", 
+        FractionBox[
+         RowBox[{"u2", "-", "up"}], "R2"], "+", 
+        FractionBox[
+         RowBox[{"u3", "-", "up"}], "R3"], "+", 
+        FractionBox[
+         RowBox[{"uo", "-", "up"}], "R"], "+", 
+        FractionBox[
+         RowBox[{"0", "-", "up"}], 
+         FractionBox["1", 
+          RowBox[{"s", " ", "C1"}]]]}], "\[Equal]", "0"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{
+        FractionBox[
+         RowBox[{"0", "-", "un"}], "R"], "+", 
+        FractionBox[
+         RowBox[{"uo", "-", "un"}], "R"]}], "\[Equal]", "0"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{
+        FractionBox["1", "R1"], "+", 
+        FractionBox["1", "R2"], "+", 
+        FractionBox["1", "R3"]}], "==", 
+       FractionBox["1", "R"]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"up", "\[Equal]", "un"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"uo", ",", "up", ",", "un", ",", "R"}], "}"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.749640068254793*^9, 3.7496401492859898`*^9}, {
+  3.749640179480362*^9, 3.749640265563039*^9}, {3.7496404287496843`*^9, 
+  3.749640443370389*^9}, {3.749640514346257*^9, 3.749640516494493*^9}, {
+  3.74964069323466*^9, 3.74964069646843*^9}, {3.7496430141728487`*^9, 
+  3.749643017582872*^9}},ExpressionUUID->"de778172-59b8-4218-be6a-\
+3f77054ea2e5"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"uo", "\[Rule]", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"2", " ", "u1"}], 
+       RowBox[{"C1", " ", "R1", " ", "s"}]], "+", 
+      FractionBox[
+       RowBox[{"2", " ", "u2"}], 
+       RowBox[{"C1", " ", "R2", " ", "s"}]], "+", 
+      FractionBox[
+       RowBox[{"2", " ", "u3"}], 
+       RowBox[{"C1", " ", "R3", " ", "s"}]]}]}], ",", 
+    RowBox[{"up", "\[Rule]", 
+     RowBox[{
+      FractionBox["u1", 
+       RowBox[{"C1", " ", "R1", " ", "s"}]], "+", 
+      FractionBox["u2", 
+       RowBox[{"C1", " ", "R2", " ", "s"}]], "+", 
+      FractionBox["u3", 
+       RowBox[{"C1", " ", "R3", " ", "s"}]]}]}], ",", 
+    RowBox[{"un", "\[Rule]", 
+     RowBox[{
+      FractionBox["u1", 
+       RowBox[{"C1", " ", "R1", " ", "s"}]], "+", 
+      FractionBox["u2", 
+       RowBox[{"C1", " ", "R2", " ", "s"}]], "+", 
+      FractionBox["u3", 
+       RowBox[{"C1", " ", "R3", " ", "s"}]]}]}], ",", 
+    RowBox[{"R", "\[Rule]", 
+     FractionBox[
+      RowBox[{"R1", " ", "R2", " ", "R3"}], 
+      RowBox[{
+       RowBox[{"R1", " ", "R2"}], "+", 
+       RowBox[{"R1", " ", "R3"}], "+", 
+       RowBox[{"R2", " ", "R3"}]}]]}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{3.749640266190703*^9, 3.749640443681623*^9, 
+  3.749640517078389*^9, 3.7496406968591127`*^9, 
+  3.74964301781579*^9},ExpressionUUID->"4092b100-6f93-4fa9-91cf-0a18e9ef581b"]
+}, Open  ]]
+},
+WindowSize->{808, 755},
+WindowMargins->{{261, Automatic}, {-110, Automatic}},
+FrontEndVersion->"11.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+10, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1555, 43, 165, "Input",ExpressionUUID->"de778172-59b8-4218-be6a-3f77054ea2e5"],
+Cell[2138, 67, 1413, 40, 90, "Output",ExpressionUUID->"4092b100-6f93-4fa9-91cf-0a18e9ef581b"]
+}, Open  ]]
+}
+]
+*)
+

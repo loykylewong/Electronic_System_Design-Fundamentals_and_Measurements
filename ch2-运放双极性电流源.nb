@@ -1,0 +1,118 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3487,        110]
+NotebookOptionsPosition[      3044,         93]
+NotebookOutlinePosition[      3406,        109]
+CellTagsIndexPosition[      3363,        106]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       FractionBox[
+        RowBox[{"u1", "-", "ux"}], "R1"], "+", 
+       FractionBox[
+        RowBox[{"uo", "-", "ux"}], "R2"]}], "\[Equal]", "Il"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{
+       FractionBox[
+        RowBox[{"u2", "-", "ux"}], "R1"], "+", 
+       FractionBox[
+        RowBox[{"uo", "-", "ux"}], "R2"]}], "\[Equal]", "0"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"Rl", "*", "Il"}], "==", "ux"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"Io", "\[Equal]", 
+      RowBox[{"2", "*", 
+       FractionBox[
+        RowBox[{"uo", "-", "ux"}], "R2"]}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"Il", ",", "Rl", ",", "uo", ",", "Io"}], "}"}]}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.749559202049835*^9, 3.749559319927374*^9}, {
+  3.749559395214871*^9, 3.7495594640607767`*^9}, {3.749559512687258*^9, 
+  3.749559530749057*^9}, {3.749559764275381*^9, 3.7495597645997066`*^9}, {
+  3.749559888664707*^9, 3.749559889427823*^9}, {3.749559923998724*^9, 
+  3.749559924533403*^9}, {3.7495601471667747`*^9, 3.7495601630029287`*^9}, {
+  3.74956032910494*^9, 3.7495603291840467`*^9}, {3.749568682194276*^9, 
+  3.749568683741455*^9}},ExpressionUUID->"364b2111-e4ce-4fed-8eaf-\
+bed81817dacd"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Il", "\[Rule]", 
+     FractionBox[
+      RowBox[{"u1", "-", "u2"}], "R1"]}], ",", 
+    RowBox[{"Rl", "\[Rule]", 
+     FractionBox[
+      RowBox[{"R1", " ", "ux"}], 
+      RowBox[{"u1", "-", "u2"}]]}], ",", 
+    RowBox[{"uo", "\[Rule]", 
+     FractionBox[
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "R2"}], " ", "u2"}], "+", 
+       RowBox[{"R1", " ", "ux"}], "+", 
+       RowBox[{"R2", " ", "ux"}]}], "R1"]}], ",", 
+    RowBox[{"Io", "\[Rule]", 
+     RowBox[{"-", 
+      FractionBox[
+       RowBox[{"2", " ", 
+        RowBox[{"(", 
+         RowBox[{"u2", "-", "ux"}], ")"}]}], "R1"]}]}]}], "}"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.749559320341359*^9, {3.749559405114464*^9, 3.749559410797127*^9}, {
+   3.749559460347488*^9, 3.749559464410982*^9}, 3.749559531165052*^9, 
+   3.749559777721815*^9, {3.749559898066059*^9, 3.7495599248719797`*^9}, {
+   3.749560154240696*^9, 3.7495601632258463`*^9}, 3.7495603296138372`*^9, 
+   3.749568684338719*^9},ExpressionUUID->"0cdf8f70-0021-4e21-90e7-\
+56b9afd04e23"]
+}, Open  ]]
+},
+WindowSize->{808, 755},
+WindowMargins->{{Automatic, 197}, {-123, Automatic}},
+FrontEndVersion->"11.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+10, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1353, 35, 143, "Input",ExpressionUUID->"364b2111-e4ce-4fed-8eaf-bed81817dacd"],
+Cell[1936, 59, 1092, 31, 51, "Output",ExpressionUUID->"0cdf8f70-0021-4e21-90e7-56b9afd04e23"]
+}, Open  ]]
+}
+]
+*)
+

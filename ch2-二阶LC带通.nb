@@ -1,0 +1,119 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4919,        111]
+NotebookOptionsPosition[      4606,         97]
+NotebookOutlinePosition[      4966,        113]
+CellTagsIndexPosition[      4923,        110]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ GraphicsBox[
+  TagBox[RasterBox[CompressedData["
+1:eJztnTtuHjcUhY0kRcq0LlNpCU6bQkVaB1qABTtGGgWQAwTptAEvwBvwAtyr
+V68mpZfgUp2iY+AkB8SQvOS85z8EPhuS5sEZ8vBeXj7mx8s/Xv72zbNnz959
+//TPy1d//Xx9/ervX394+uHi6t3vb6/evP7l6s83b99c/3T57dMvXz/xzxPf
+PfHo5OTk5OTk5OTk5OTk5OTk5OTk5JRJDw8PxpiZ+PLlizHGGGOMMcYYY4Lc
+398/3t7eFrm7u1s9n8ZMhdbtz58/d10D50X0cXFx8fj8+fMi79+/D91TtWpN
+mq2Aenlzc/N4fn4+WL/xe9TZlmt++vQppI/Ly8uvGks5Ozv7eu719XXxPtAx
+8v7ixYvBvOP6rXk3ZirUfqBOf/jw4T8bgLqtdfXjx4/h60JTPK+1fvPcmrag
+YeoQbQDyx7xDc/wbwM9rv2tzeqi2hnxB6E2PiV4X9Zm2qCU/1HREW8xX7lg8
+j9rkqJ9pzFREbJPagTl9rai2oBvmCX5h6Vj4vmqD8fPa79ycDhEboz7kHPpS
+O1PTFoBtbPFZ1c+1n2i2RlRfQ7H2SPyxRVtA7Wnk+tCgxmrWfp/GKBqbK/lX
+6Ktp3Qe1a9O2IM4XyQvi7q39QT0nkidjlgI2qBZHUGBPoraCfh70Gx1n0/y0
+xE6sL7NF6Lvl4otDRPSo8b+WPp3G/a0vs2e0LkfnQ6h9gb84dIzG/1rjDapL
+68vsFY0JtIwr63k5TVK3LTaRqH6jsQqN0beM4RkzB9AF7UuLtoDGwof+rrYr
+Gi9Mz2+1RarJaBzFmDkYoy3A/lrOd1P7Bl+vJ486JyMyXqxzUHqeyZgpQF0d
+oy21Lbl+FezH2H5Qq+/Ke/b4o8ZMgc6h6J2np35YzjbpWPWYvLIdqPl7qnnP
+PzRrwXrf0yciGm/M+W1T6AuoDSv5iDzOtsusBXVRi8dBe7mYO6B2SjE69Q9b
+5zLieNUS71eyS7TJak/Rx/T6S7MEnDsETZTsAH2/Ul2mz1Yal1K7g3kbLfPZ
+02vTT8zZJuZZbTL9RccRzRKozRlaRwwia6h0jl+tn6MxfNwXx0d8N/VhcQ7g
+74biKZw3yWOB/m7td2+OjcYjouTqpdqliN+na0yos5LvCUp7dQzZzJ7nMGYq
+oImczcqRi4erTYrGEWDzUs2U4iul/A7Zr9JzuP9l9gR9yNp64iFg79QH7R13
+NuaIRMaVa+gcQftuxvxPa98rR21esDGnCPtQrXtFKYy1jLmGMUeDukD8r9fu
+cE4x+mCeY2FOHe5dg34SdIGYRq+2uGcH+m3Wljl1oAHGuBFLR99rjC6gUe9f
+bYwxxhhjjDHmVNE5a+4fGzMt1pcxxphTonW9kzFHxvoyZj7WtnfGnCKqQcc3
+jJkW68sYY4wx5njo97Bb9pk0xgyDvYGwdyrX5WEdke776r0XjOmHezWke0ly
+X/Ke/b3MNkEZ6965Q7g9nRasAx/aQ1L3V177nWM9LurGkeKS8L/hO2jd7n0+
+7g1Q00dtbDO6ZweOUa1izfTadWRO9P0ClNsU/actxNtRdkfZoxxlonuu5+p4
+636euldvrp7z3incFzuiLWiqlHf87Sh7kaJNx7thX2mIMf0ntV9rxDpUV2SJ
+b4my3k39zPo+AcqO90BZ6re6QEs95V67rd8KR57wjmva4h4fvAd0xj0+8H9a
+VmO+WbYF+F6G2gy2U6q7nnrJNnHpd6Vlle6FvoQdnete+u2G3J66qrHat7/S
+8+intdQhfkuo1gartnLH6vc2h/rze0G/xVnan06/i93ah4Jea9efA/oq0DTb
+dv2uxxH0Vfpuo+5JPedcT+Qlqi39FnnNP9c2ZK/fp2z53qC2h9F9WLVdW/r9
+4H5peesz7Flf9CtqNmZufen3WSNtrvp9kfqgNmwJf37qMmrxH3Sf/0g/qsVn
+WIqj6Kv1/jV9oe5qnCLij7Xu7av2KNo+q7+xt36Y1rVoLC3ankB7W9NW+sxH
+15fGQGr1OY3l1Y7X/kL02fTdR7Wi35bY29712t+P2l6N3eY0yb7p1rSVlvHR
+9aVlFbm/2pdSe6t99pYxDrVF0fN6bN5WUFvU0wbl3hH7dEPagl1bcy7iqegr
+El9MYRyqFs9nu9wSk9TzTkVfPbHqmr5YRmg7ObeX4G/83vVaz3wK+oJ90TGJ
+nneTawPVX2v1TXr6I3vWl7YnU+mrNB6/hTjQlPpK57kMof2N0nFTvhP6Ja3j
+IZE5oizfnlhDT/9L4/mt98zNMeml9Xl7+l8az0/P4fesa6zZJ5tSX+kciTFM
+1Tazz9Uz1sg+Fcp46O9qu3rmLfXYIn3HrW2Q3m8KxtSPqD5Vk3tc03Vk+zVG
+W5HvI7NtbZ03pVDD0Wtofet5pjXtl8Zvc21WCo9v7dtuhaP2v/hcvXNkIt9Y
+nsLWagyx5sfoeOvexr5Iy1xOjS/tbSydHFFfOoei16fQel97ljH64rgorlOL
+a6rm9+grgWhMFtD/2PMayaPpiz7I2LFGjYnUnmVsX5FlUGvT6RtGxxe2Cp+j
+5CPqmOKe1+QcSV8ah6/NpamVW8QP09hwi5bZD1IbRD3n8s084566dgXX2fq6
+WPbL9Vmondq4h2oQ73iOtU1zovpaYs3DnPqiT1dqF1E2jEvk8qBxttI7Sde7
+RDVGG6vaZZ3L+ULcw0XvwVj91vsmQ/nUceH0eLaTad+Z5bYXfSGf2gYvsV5m
+Ln2la08i5PKguqlpRudcsb5Eyl/fOcdp2Kanmlafl8f2zDVai3QcguTeMfXI
+/aCA1tO1n6cE2vi0fFL4THP4+XPVibSej9GXjmlG7p2utwW1+HVpXXx6bm3c
+amtzWlPSteW1ciiNo44ZC1mCdN3FUnMoyFz6ankukrMzun9e9P641pAt68lv
++m5q41Zr16kILeVQGkfdui+8NrW6vTbqZ/bYb5yvvsFWn9OYNYiMK9fQMZ6t
++27GLMkU+76yv7TncVFjpkZ9wzF+PjW653FRY6aGuhgzt48xDvfDzamjcbmx
+exgzrtEyzmzMkeF8GwBfbuzYuv1BY4wxxhhjjDHGGGOMMcYYY4wx5tg8PDwY
+Y2bCycnJycnJycnJSdO/D/wjzQ==
+    "], {{0, 100}, {216, 0}}, {0, 255},
+    ColorFunction->RGBColor],
+   BoxForm`ImageTag["Byte", ColorSpace -> "RGB", Interleaving -> True],
+   Selectable->False],
+  DefaultBaseStyle->"ImageGraphics",
+  ImageSize->{88.00390625, Automatic},
+  ImageSizeRaw->{216, 100},
+  PlotRange->{{0, 216}, {0, 100}}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"A", "[", 
+    RowBox[{"\[CapitalOmega]_", ",", "\[Zeta]_"}], "]"}], ":=", 
+   FractionBox[
+    RowBox[{"2", "\[ImaginaryI]", " ", "\[Zeta]", " ", "\[CapitalOmega]"}], 
+    RowBox[{"1", "+", 
+     RowBox[{"2", "\[ImaginaryI]", " ", "\[Zeta]", " ", "\[CapitalOmega]"}], 
+     "-", 
+     SuperscriptBox["\[CapitalOmega]", "2"]}]]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.7501399162061768`*^9, 
+  3.750139993638329*^9}},ExpressionUUID->"a3c02431-0089-49df-853c-\
+708a6d8f1687"]
+},
+WindowSize->{808, 755},
+WindowMargins->{{Automatic, 42}, {-71, Automatic}},
+FrontEndVersion->"11.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+10, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 4044, 75, 101, "Input",ExpressionUUID->"a3c02431-0089-49df-853c-708a6d8f1687"]
+}
+]
+*)
+

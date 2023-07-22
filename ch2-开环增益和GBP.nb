@@ -1,0 +1,228 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7600,        220]
+NotebookOptionsPosition[      6779,        199]
+NotebookOutlinePosition[      7139,        215]
+CellTagsIndexPosition[      7096,        212]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{"<<", "Notation`"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{SubscriptBox["A", "D"]},
+    "NotationTemplateTag"], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{SubscriptBox["A", "CL"]},
+    "NotationTemplateTag"], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["A", "D0"], "=."}], ";", 
+  RowBox[{
+   SubscriptBox["\[Omega]", "C1"], "=."}], ";", 
+  RowBox[{
+   SubscriptBox["\[Omega]", "C2"], "=."}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    SubscriptBox["A", "D"], "[", "s_", "]"}], ":=", 
+   RowBox[{
+    FractionBox[
+     SubscriptBox["A", "D0"], 
+     RowBox[{"1", "+", 
+      RowBox[{"s", "/", 
+       SubscriptBox["\[Omega]", "C1"]}]}]], "\[Times]", 
+    FractionBox["1", 
+     RowBox[{"1", "+", 
+      RowBox[{"s", "/", 
+       SubscriptBox["\[Omega]", "C2"]}]}]]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    SubscriptBox["A", "CL"], "[", 
+    RowBox[{"s_", ",", "\[Beta]_"}], "]"}], ":=", 
+   FractionBox[
+    RowBox[{
+     SubscriptBox["A", "D"], "[", "s", "]"}], 
+    RowBox[{"1", "+", 
+     RowBox[{
+      RowBox[{
+       SubscriptBox["A", "D"], "[", "s", "]"}], " ", "\[Beta]"}]}]]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"FullSimplify", "[", 
+  RowBox[{
+   SubscriptBox["A", "CL"], "[", 
+   RowBox[{"s", ",", "\[Beta]"}], "]"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   SubscriptBox["A", "D0"], "=", 
+   SuperscriptBox["10", "5"]}], ";", 
+  RowBox[{
+   SubscriptBox["\[Omega]", "C1"], "=", "1"}], ";", 
+  RowBox[{
+   SubscriptBox["\[Omega]", "C2"], "=", 
+   RowBox[{"5", "\[Times]", 
+    SuperscriptBox["10", "5"]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{"Abs", "[", 
+    RowBox[{
+     SubscriptBox["A", "CL"], "[", 
+     RowBox[{
+      RowBox[{"\[ImaginaryI]", " ", "\[Omega]"}], ",", "0"}], "]"}], "]"}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Omega]", ",", "0.1", ",", "100000"}], "}"}]}], "]"}]}], "Input",\
+
+ CellChangeTimes->{{3.749739234733447*^9, 3.7497393580570507`*^9}, {
+   3.749740910433182*^9, 3.7497409212178507`*^9}, 3.7497430020218687`*^9, {
+   3.7497449202061462`*^9, 3.7497449728952923`*^9}, {3.74974502310081*^9, 
+   3.749745191749051*^9}, {3.749745232889119*^9, 3.749745312144993*^9}, {
+   3.7497453739513407`*^9, 3.749745380506803*^9}, {3.749745680082165*^9, 
+   3.749745745965765*^9}, {3.749745858143875*^9, 3.749745860894115*^9}, {
+   3.749745893793021*^9, 3.7497460593390627`*^9}, {3.7497461571575193`*^9, 
+   3.7497461773459597`*^9}, {3.7497462721815166`*^9, 3.749746336111022*^9}, {
+   3.749746433449876*^9, 3.74974653121316*^9}, {3.749747008680204*^9, 
+   3.74974711176439*^9}, {3.749747194836351*^9, 3.749747366136187*^9}, {
+   3.749747398453727*^9, 3.749747529860538*^9}, {3.749747564803032*^9, 
+   3.749747717952889*^9}},ExpressionUUID->"eeeaa7da-5308-4275-9551-\
+2f43468b2acd"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Symbolize","bsymbexs",
+   "\"Warning: The box structure attempting to be symbolized has a similar or \
+identical symbol already defined, possibly overriding previously symbolized \
+box structure.\"",2,659,362,16442441004341453014,"Local","Notation`Symbolize"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{{3.74974763212484*^9, 3.749747666917637*^9}, 
+   3.7497477189285173`*^9},ExpressionUUID->"b7d7a876-00d3-4b71-8cfb-\
+87970fd8fca6"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Symbolize","bsymbexs",
+   "\"Warning: The box structure attempting to be symbolized has a similar or \
+identical symbol already defined, possibly overriding previously symbolized \
+box structure.\"",2,660,363,16442441004341453014,"Local","Notation`Symbolize"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{{3.74974763212484*^9, 3.749747666917637*^9}, 
+   3.749747718985622*^9},ExpressionUUID->"11000daa-06f5-4e15-966d-\
+b8d5ec465310"],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+   SubscriptBox["A", "D0"], " ", 
+   SubscriptBox["\[Omega]", "C1"], " ", 
+   SubscriptBox["\[Omega]", "C2"]}], 
+  RowBox[{
+   RowBox[{"s", " ", 
+    RowBox[{"(", 
+     RowBox[{"s", "+", 
+      SubscriptBox["\[Omega]", "C2"]}], ")"}]}], "+", 
+   RowBox[{
+    SubscriptBox["\[Omega]", "C1"], " ", 
+    RowBox[{"(", 
+     RowBox[{"s", "+", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         RowBox[{"\[Beta]", " ", 
+          SubscriptBox["A", "D0"]}]}], ")"}], " ", 
+       SubscriptBox["\[Omega]", "C2"]}]}], ")"}]}]}]]], "Output",
+ CellChangeTimes->{{3.749747632202635*^9, 3.749747667010544*^9}, 
+   3.749747719018537*^9},ExpressionUUID->"f17b4bd8-98a0-440d-80e4-\
+d7f2e82cab8d"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {}, {}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0.1, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, 
+     Charting`ScaledFrameTicks[{Identity, Identity}]}, {Automatic, 
+     Charting`ScaledFrameTicks[{Identity, Identity}]}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->All,
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "ScalingFunctions" -> None, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0.1, 100000}, {0., 0.}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.05], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{{3.749747632202635*^9, 3.749747667010544*^9}, 
+   3.7497477190681543`*^9},ExpressionUUID->"4283f72e-709d-49cf-85cf-\
+4fc8373018c7"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.749745389711315*^9, 
+  3.749745390355743*^9}},ExpressionUUID->"b917cb5e-730c-442b-a046-\
+1af2566f7811"]
+},
+WindowSize->{808, 755},
+WindowMargins->{{Automatic, 315}, {19, Automatic}},
+FrontEndVersion->"11.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
+10, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 2980, 82, 264, "Input",ExpressionUUID->"eeeaa7da-5308-4275-9551-2f43468b2acd"],
+Cell[3563, 106, 484, 9, 42, "Message",ExpressionUUID->"b7d7a876-00d3-4b71-8cfb-87970fd8fca6"],
+Cell[4050, 117, 482, 9, 42, "Message",ExpressionUUID->"11000daa-06f5-4e15-966d-b8d5ec465310"],
+Cell[4535, 128, 741, 23, 53, "Output",ExpressionUUID->"f17b4bd8-98a0-440d-80e4-d7f2e82cab8d"],
+Cell[5279, 153, 1329, 38, 258, "Output",ExpressionUUID->"4283f72e-709d-49cf-85cf-4fc8373018c7"]
+}, Open  ]],
+Cell[6623, 194, 152, 3, 30, "Input",ExpressionUUID->"b917cb5e-730c-442b-a046-1af2566f7811"]
+}
+]
+*)
+
